@@ -1,0 +1,38 @@
+{
+  "name": "brain-games-g",
+  "version": "1.0.0",
+  "description": "Brain Games",
+  "main": "dist/index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Glebuar/project-lvl1-s308.git"
+  },
+  "author": "Gleb Bochkarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glebuar/project-lvl1-s308/issues"
+  },
+  "homepage": "https://github.com/Glebuar/project-lvl1-s308#readme",
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.44",
+    "@babel/core": "7.0.0-beta.44",
+    "@babel/node": "7.0.0-beta.44",
+    "@babel/preset-env": "7.0.0-beta.44",
+    "@babel/preset-stage-0": "7.0.0-beta.44"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
