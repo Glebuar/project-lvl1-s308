@@ -21,9 +21,9 @@
   "author": "Gleb Bochkarov",
   "license": "ISC",
   "keywords": [
-   "brain",
-   "games",
-   "gleb"
+    "brain",
+    "games",
+    "gleb"
   ],
   "bugs": {
     "url": "https://github.com/Glebuar/project-lvl1-s308/issues"
@@ -35,5 +35,8 @@
     "@babel/node": "7.0.0-beta.44",
     "@babel/preset-env": "7.0.0-beta.44",
     "@babel/preset-stage-0": "7.0.0-beta.44"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.9"
   }
 }
